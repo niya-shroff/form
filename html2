@@ -53,11 +53,104 @@
     <form>
       <div class="form-group">
         <label for="dimensions">Dimensions:</label>
-        <select id="dimensions" name="dimensions">
-          <!-- Options -->
-          <option value="dimension1">Dimension 1</option>
-          <option value="dimension2">Dimension 2</option>
-          <!-- Add more options as needed -->
+        <select id="dimensions" name="inputDimension">
+                    <option></option>
+                    <option>Time Spent on Page - Bucketed</option>
+                    <option>Custom Link</option>
+                    <option>Day</option>
+                    <option>Hour</option>
+                    <option>Minute</option>
+                    <option>Month</option>
+                    <option>Quarter</option>
+                    <option>Week</option>
+                    <option>Year</option>
+                    <option>Days Since Last Visit</option>
+                    <option>Entry Search Term (lv1)</option>
+                    <option>Entry Page Original</option>
+                    <option>SID (v1)</option>
+                    <option>Page URL (v16)</option>
+                    <option>Navigation Link (v18)</option>
+                    <option>Result Click Contact (v35)</option>
+                    <option>Result Click Position (v36)</option>
+                    <option>Result Click URL (v37)</option>
+                    <option>Result Count (v38)</option>
+                    <option>Content ID (v44)</option>
+                    <option>Profile: Click to Contact (v60)</option>
+                    <option>Profile: Experience Interactions (v61)</option>
+                    <option>Experience Builder Interactions (v62)</option>
+                    <option>Content Interactions (v64)</option>
+                    <option>Content Title Click Source (v65)</option>
+                    <option>Content Modal Mode (v67)</option>
+                    <option>Subscription Action (v68)</option>
+                    <option>Subscription Keyword (v69)</option>
+                    <option>Subscription People (v70)</option>
+                    <option>Subscription Groups (v71)</option>
+                    <option>Subscription Content (v72)</option>
+                    <option>Bookmark Action (v73)</option>
+                    <option>Bookmark Type (v74)</option>
+                    <option>Bookmark Value (v75)</option>
+                    <option>Exit Search Term (lv1)</option>
+                    <option>Exit Page</option>
+                    <option>Search Term (lv1)</option>
+                    <option>Page</option>
+                    <option>Time Spent on Page - Granular</option>
+                    <option>Visit Depth</option>
+                    <option>Referrer</option>
+                    <option>Original Referrer</option>
+                    <option>Referrer Type</option>
+                    <option>Original Referrer Type</option>
+                    <option>Referrer Type (Visit)</option>
+                    <option>Referrer (Visit)</option>
+                    <option>Single Page Visits</option>
+                    <option>Site Section</option>
+                    <option>Time Spent per Visit - Granular</option>
+                    <option>AM/PM</option>
+                    <option>Day of Month</option>
+                    <option>Day of Week</option>
+                    <option>Day of Year</option>
+                    <option>Hour of Day</option>
+                    <option>Month of Year</option>
+                    <option>Quarter of Year</option>
+                    <option>Weekday/Weekend</option>
+                    <option>Time Prior to Event</option>
+                    <option>Time Spent per Visit - Bucketed</option>
+                    <option>Cookie Support</option>
+                    <option>Entry Search Filters (lv2)</option>
+                    <option>Page Load Time (v11)</option>
+                    <option>Exit URL (v12)</option>
+                    <option>Region (v2)</option>
+                    <option>Officer Title (v27)</option>
+                    <option>Country (v3)</option>
+                    <option>Search Type (v33)</option>
+                    <option>Query Results (v39)</option>
+                    <option>State (v4)</option>
+                    <option>Search Result Feedback (v41)</option>
+                    <option>Content Owner (v43)</option>
+                    <option>Content Index (v45)</option>
+                    <option>Groups Page URL (v47)</option>
+                    <option>Content Source (v48)</option>
+                    <option>City (v5)</option>
+                    <option>Job Name (v57)</option>
+                    <option>Practice Groups (v58)</option>
+                    <option>LOB (v6)</option>
+                    <option>Tab Name (v63)</option>
+                    <option>Content Modal Action (v66)</option>
+                    <option>Page Name (v9)</option>
+                    <option>Exit Search Filters (lv2)</option>
+                    <option>Home Page</option>
+                    <option>Language</option>
+                    <option>Search Filters (lv2)</option>
+                    <option>New Visit</option>
+                    <option>Operating Systems</option>
+                    <option>Page URL</option>
+                    <option>Original Entry Page URL</option>
+                    <option>Visit Start Page URL</option>
+                    <option>Persistent Cookie Support</option>
+                    <option>Referring Domain</option>
+                    <option>Original Referring Domain</option>
+                    <option>Referring Domain (Visit)</option>
+                    <option>Return Frequency</option>
+                    <option>US States</option>
         </select>
       </div>
 
@@ -75,11 +168,104 @@
 
       <div class="form-group">
         <label for="breakdown-dimension">Breakdown Dimension:</label>
-        <select id="breakdown-dimension" name="breakdown-dimension">
-          <!-- Options -->
-          <option value="breakdown1">Breakdown 1</option>
-          <option value="breakdown2">Breakdown 2</option>
-          <!-- Add more options as needed -->
+        <select id="breakdown-dimension" name="inputBreakdown">
+                    <option></option>
+                    <option>Time Spent on Page - Bucketed</option>
+                    <option>Custom Link</option>
+                    <option>Day</option>
+                    <option>Hour</option>
+                    <option>Minute</option>
+                    <option>Month</option>
+                    <option>Quarter</option>
+                    <option>Week</option>
+                    <option>Year</option>
+                    <option>Days Since Last Visit</option>
+                    <option>Entry Search Term (lv1)</option>
+                    <option>Entry Page Original</option>
+                    <option>SID (v1)</option>
+                    <option>Page URL (v16)</option>
+                    <option>Navigation Link (v18)</option>
+                    <option>Result Click Contact (v35)</option>
+                    <option>Result Click Position (v36)</option>
+                    <option>Result Click URL (v37)</option>
+                    <option>Result Count (v38)</option>
+                    <option>Content ID (v44)</option>
+                    <option>Profile: Click to Contact (v60)</option>
+                    <option>Profile: Experience Interactions (v61)</option>
+                    <option>Experience Builder Interactions (v62)</option>
+                    <option>Content Interactions (v64)</option>
+                    <option>Content Title Click Source (v65)</option>
+                    <option>Content Modal Mode (v67)</option>
+                    <option>Subscription Action (v68)</option>
+                    <option>Subscription Keyword (v69)</option>
+                    <option>Subscription People (v70)</option>
+                    <option>Subscription Groups (v71)</option>
+                    <option>Subscription Content (v72)</option>
+                    <option>Bookmark Action (v73)</option>
+                    <option>Bookmark Type (v74)</option>
+                    <option>Bookmark Value (v75)</option>
+                    <option>Exit Search Term (lv1)</option>
+                    <option>Exit Page</option>
+                    <option>Search Term (lv1)</option>
+                    <option>Page</option>
+                    <option>Time Spent on Page - Granular</option>
+                    <option>Visit Depth</option>
+                    <option>Referrer</option>
+                    <option>Original Referrer</option>
+                    <option>Referrer Type</option>
+                    <option>Original Referrer Type</option>
+                    <option>Referrer Type (Visit)</option>
+                    <option>Referrer (Visit)</option>
+                    <option>Single Page Visits</option>
+                    <option>Site Section</option>
+                    <option>Time Spent per Visit - Granular</option>
+                    <option>AM/PM</option>
+                    <option>Day of Month</option>
+                    <option>Day of Week</option>
+                    <option>Day of Year</option>
+                    <option>Hour of Day</option>
+                    <option>Month of Year</option>
+                    <option>Quarter of Year</option>
+                    <option>Weekday/Weekend</option>
+                    <option>Time Prior to Event</option>
+                    <option>Time Spent per Visit - Bucketed</option>
+                    <option>Cookie Support</option>
+                    <option>Entry Search Filters (lv2)</option>
+                    <option>Page Load Time (v11)</option>
+                    <option>Exit URL (v12)</option>
+                    <option>Region (v2)</option>
+                    <option>Officer Title (v27)</option>
+                    <option>Country (v3)</option>
+                    <option>Search Type (v33)</option>
+                    <option>Query Results (v39)</option>
+                    <option>State (v4)</option>
+                    <option>Search Result Feedback (v41)</option>
+                    <option>Content Owner (v43)</option>
+                    <option>Content Index (v45)</option>
+                    <option>Groups Page URL (v47)</option>
+                    <option>Content Source (v48)</option>
+                    <option>City (v5)</option>
+                    <option>Job Name (v57)</option>
+                    <option>Practice Groups (v58)</option>
+                    <option>LOB (v6)</option>
+                    <option>Tab Name (v63)</option>
+                    <option>Content Modal Action (v66)</option>
+                    <option>Page Name (v9)</option>
+                    <option>Exit Search Filters (lv2)</option>
+                    <option>Home Page</option>
+                    <option>Language</option>
+                    <option>Search Filters (lv2)</option>
+                    <option>New Visit</option>
+                    <option>Operating Systems</option>
+                    <option>Page URL</option>
+                    <option>Original Entry Page URL</option>
+                    <option>Visit Start Page URL</option>
+                    <option>Persistent Cookie Support</option>
+                    <option>Referring Domain</option>
+                    <option>Original Referring Domain</option>
+                    <option>Referring Domain (Visit)</option>
+                    <option>Return Frequency</option>
+                    <option>US States</option>
         </select>
       </div>
 
