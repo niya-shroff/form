@@ -1,62 +1,101 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Adobe Analytics Data Extractor</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-        body {
-            padding: 20px;
-        }
-        
-        h1 {
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        label {
-            font-weight: bold;
-        }
-        
-        select.form-control,
-        input[type="checkbox"] {
-            margin-bottom: 10px;
-        }
-        
-        .checkbox label {
-            font-weight: normal;
-        }
-    </style>
+  <style>
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group select,
+    .form-group input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group .date-input {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .submit-btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <h1>Adobe Analytics Data Extraction API</h1>
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <form action="{{ url_for('read_form')}}" method="post">
-                <label for="dimension">Dimension</label>
-                <select name="inputDimension" class="form-control" id="dim">
-                    <option></option>
-                    <!-- Options omitted for brevity -->
-                </select>
-                <br>
-                <label for="metrics" class="form-label">Metrics</label>
-                <div class="checkbox">
-                    <label><input type="checkbox" name="inputMetrics" value="Exits">Exits</label>
-                </div>
-                <div class="checkbox">
-                    <label><input type="checkbox" name="inputMetrics" value="Average Time Spent on Page (seconds)">Average Time Spent on Page (seconds)</label>
-                </div>
-                <!-- Additional checkboxes omitted for brevity -->
-                <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="dimensions">Dimensions:</label>
+        <select id="dimensions" name="dimensions">
+          <!-- Options -->
+          <option value="dimension1">Dimension 1</option>
+          <option value="dimension2">Dimension 2</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="metrics">Metrics:</label>
+        <div>
+          <!-- Checkboxes -->
+          <input type="checkbox" id="metric1" name="metrics" value="metric1">
+          <label for="metric1">Metric 1</label><br>
+          <input type="checkbox" id="metric2" name="metrics" value="metric2">
+          <label for="metric2">Metric 2</label><br>
+          <!-- Add more checkboxes as needed -->
         </div>
-        <div class="col-md-4"></div>
-    </div>
+      </div>
+
+      <div class="form-group">
+        <label for="breakdown-dimension">Breakdown Dimension:</label>
+        <select id="breakdown-dimension" name="breakdown-dimension">
+          <!-- Options -->
+          <option value="breakdown1">Breakdown 1</option>
+          <option value="breakdown2">Breakdown 2</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <div class="form-group">
+        <div class="date-input">
+          <label for="date-from">Start Date:</label>
+          <input type="date" id="date-from" name="dateFrom">
+        </div>
+        <div class="date-input">
+          <label for="date-to">End Date:</label>
+          <input type="date" id="date-to" name="dateTo">
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
