@@ -157,12 +157,73 @@
       <div class="form-group">
         <label for="metrics">Metrics:</label>
         <div>
-          <!-- Checkboxes -->
-          <input type="checkbox" id="metric1" name="metrics" value="metric1">
-          <label for="metric1">Metric 1</label><br>
-          <input type="checkbox" id="metric2" name="metrics" value="metric2">
-          <label for="metric2">Metric 2</label><br>
-          <!-- Add more checkboxes as needed -->
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Exits">Exits</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Average Time Spent on Page (seconds)">Average Time Spent on Page (seconds)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Average Time Spent on Site (seconds)">Average Time Spent on Site (seconds)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Average Visit Depth">Average Visit Depth</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Bounce Rate">Bounce Rate</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Bounces">Bounces</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Entries">Entries</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="SID (v1) Instances">SID (v1) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Search Type (v33) Instances">Search Type (v33) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Result Click Position (v36) Instances">Result Click Position (v36) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Result Click URL (v37) Instances">Result Click URL (v37) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Result Count (v38) Instances">Result Count (v38) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Query Results (v39) Instances">Query Results (v39) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Content ID (v44) Instances">Content ID (v44) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Profile: Click to Contact (v60) Instances">Profile: Click to Contact (v60) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Profile: Experience Interactions (v61) Instances">Profile: Experience Interactions (v61) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Experience Builder Interactions (v62) Instances">Experience Builder Interactions (v62) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Content Interactions (v64) Instances">Content Interactions (v64) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Content Title Click Source (v65) Instances">Content Title Click Source (v65) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Subscription Action (v68) Instances">Subscription Action (v68) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Subscription Keyword (v69) Instances">Subscription Keyword (v69) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Bookmark Action (v73) Instances">Bookmark Action (v73) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Bookmark Type (v74) Instances">Bookmark Type (v74) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Bookmark Value (v75) Instances">Bookmark Value (v75) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Page Views (e1)">Page Views (e1)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Result Click Email (e12)">Result Click Email (e12)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Result Click Phone (e13)">Result Click Phone (e13)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Profile: Return to Search Results (e18)">Profile: Return to Search Results (e18)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Profile: Click to Contact (e19)">Profile: Click to Contact (e19)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Searches (e2)">Searches (e2)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Profile: Experience Actions (e20)">Profile: Experience Actions (e20)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Profile: Move Experience (e21)">Profile: Move Experience (e21)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Navigation Link Clicks (e26)">Navigation Link Clicks (e26)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Content Title Click (e29)">Content Title Click (e29)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Content Interactions (e30)">Content Interactions (e30)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Subscription Action (e33)">Subscription Action (e33)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Bookmark Action (e34)">Bookmark Action (e34)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Downloads (e6)">Downloads (e6)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Result Click (e7)">Result Click (e7)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Total Seconds Spent">Total Seconds Spent</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Page Views">Page Views</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Average Page Views per Visit">Average Page Views per Visit</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Referrer Instances">Referrer Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Reloads">Reloads</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Time Spent per Visit (seconds)">Time Spent per Visit (seconds)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Time Spent per Visitor (seconds)">Time Spent per Visitor (seconds)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Visits">Visits</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Content Index (v45) Instances">Content Index (v45) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Mobile Views">Mobile Views</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Page URL (v16) Instances">Page URL (v16) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Page Name (v9) Instances">Page Name (v9) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="EB : Close Interactions (e22)">EB : Close Interactions (e22)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="EB : See Sample Profiles (e23)">EB : See Sample Profiles (e23)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="EB : Add More Details (e24)">EB : Add More Details (e24)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="EB : Save Interactions (e25)">EB : Save Interactions (e25)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Time Spent on EB Modal (e31)">Time Spent on EB Modal (e31)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Page Load Time (v11) Instances">Page Load Time (v11) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Occurrences">Occurrences</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Subscription People (v70) Instances">Subscription People (v70) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Subscription Groups (v71) Instances">Subscription Groups (v71) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Subscription Content (v72) Instances">Subscription Content (v72) Instances</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Search Filter (e14)">Search Filter (e14)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Search Thumbs Up (e15)">Search Thumbs Up (e15)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Search Thumbs Down (e16)">Search Thumbs Down (e16)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Total Page Load Time in seconds (e3)">Total Page Load Time in seconds (e3)</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Page Events">Page Events</label></div>
+                <div class="checkbox"><label><input type="checkbox" name="inputMetrics" value="Single Access">Single Access</label></div>
         </div>
       </div>
 
