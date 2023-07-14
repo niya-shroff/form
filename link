@@ -1,1 +1,14 @@
 https://github.com/konosp/adobe-analytics-reports-api-v2.0/blob/master/main.py
+
+Description
+Context
+
+Resolution Tags DB Structure to store and manage Resolution Groups Tags
+Inquiry Subtype will drive the Resolution Reasons dropdown in the User Interface
+Criteria
+
+Given a Legal Inquiry is In Progress,
+and the Resolution Groups is configured in a table
+and the REsolution Tags is mapped to a Resolution Groups in a table
+then the Resolution Tags should be visible in the OCE-LDC portal
+and the Resolution Tags should be stored in the Database.
